@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>gazebo_experimental</name>
+  <version>0.0.0</version>
+  <description>Gazebo experimental</description>
+  <maintainer email="sim@osrfoundation.org">Gazebo developers</maintainer>
+  <license>APACHE 2</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <depend>ign_common</depend>
+  <depend>ign_rendering</depend>
+  <depend>ign_gui</depend>
+  <depend>ign_msgs</depend>
+  <depend>ign_transport</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
