@@ -8,6 +8,9 @@ PKG_DIR=../package.xml
 cd $SRC_DIR/gazebo_experimental
 ln -Ts ../$PKG_DIR/gazebo.xml package.xml || true
 
+cd $SRC_DIR/ign/tools
+ln -Ts ../../$PKG_DIR/ign_tools.xml package.xml || true
+
 cd $SRC_DIR/ign/common
 ln -Ts ../../$PKG_DIR/ign_common.xml package.xml || true
 

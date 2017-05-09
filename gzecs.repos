@@ -1,4 +1,8 @@
 repositories:
+  src/ign/tools:
+    type: hg
+    url: ssh://hg@bitbucket.org/ignitionrobotics/ign-tools
+    version: default
   src/ign/msgs:
     type: hg
     url: ssh://hg@bitbucket.org/ignitionrobotics/ign-msgs

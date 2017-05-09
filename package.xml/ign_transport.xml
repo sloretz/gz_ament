@@ -10,6 +10,7 @@
 
   <depend>ign_common</depend>
   <depend>ign_msgs</depend>
+  <depend>ign_tools</depend>
 
   <export>
     <build_type>cmake</build_type>
