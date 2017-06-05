@@ -19,10 +19,14 @@ repositories:
     type: hg
     url: ssh://hg@bitbucket.org/ignitionrobotics/ign-gui
     version: default
-#  src/ign/rendering:
-#    type: hg
-#    url: ssh://hg@bitbucket.org/ignitionrobotics/ign-rendering
-#    version: default
+  src/sdformat:
+    type: hg
+    url: ssh://hg@bitbucket.org/osrf/sdformat
+    version: default
+  src/ign/rendering:
+    type: hg
+    url: ssh://hg@bitbucket.org/ignitionrobotics/ign-rendering
+    version: default
   src/gazebo_experimental:
     type: hg
     url: ssh://hg@bitbucket.org/osrf/gazebo_experimental
