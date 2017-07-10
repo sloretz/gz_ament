@@ -29,3 +29,5 @@ ln -Ts ../../$PKG_DIR/ign_rendering.xml package.xml || true
 cd $SRC_DIR/ign/transport
 ln -Ts ../../$PKG_DIR/ign_transport.xml package.xml || true
 
+cd $SRC_DIR/ign/math
+ln -Ts ../../$PKG_DIR/ign_math.xml package.xml || true

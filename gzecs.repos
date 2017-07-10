@@ -19,6 +19,10 @@ repositories:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-gui
     version: default
+  src/ign/math:
+    type: hg
+    url: https://bitbucket.org/ignitionrobotics/ign-math
+    version: ign-math3
   src/sdformat:
     type: hg
     url: https://bitbucket.org/osrf/sdformat
