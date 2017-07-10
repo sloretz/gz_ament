@@ -1,0 +1,41 @@
+repositories:
+  src/gazebo:
+    type: hg
+    url: https://bitbucket.org/osrf/gazebo
+    version: default
+  src/ign-common:
+    type: hg
+    url: https://bitbucket.org/ignitionrobotics/ign-common
+    version: default
+  src/ign-math:
+    type: hg
+    url: https://bitbucket.org/ignitionrobotics/ign-math
+    version: ign-math3
+  src/ign-msgs:
+    type: hg
+    url: https://bitbucket.org/ignitionrobotics/ign-msgs
+    version: default
+  src/ign-tools:
+    type: hg
+    url: https://bitbucket.org/ignitionrobotics/ign-tools
+    version: default
+  src/ign-transport:
+    type: hg
+    url: https://bitbucket.org/ignitionrobotics/ign-transport
+    version: default
+  src/sdformat:
+    type: hg
+    url: https://bitbucket.org/osrf/sdformat
+    version: sdf5
+  src/ament/ament_tools:
+    type: git
+    url: https://github.com/ament/ament_tools.git
+    version: master
+  src/ament/ament_package:
+    type: git
+    url: https://github.com/ament/ament_package.git
+    version: master
+  src/ament/osrf_pycommon:
+    type: git
+    url: https://github.com/osrf/osrf_pycommon.git
+    version: master
