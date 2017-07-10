@@ -1,15 +1,7 @@
 repositories:
-  src/ign-tools:
+  src/gazebo_experimental:
     type: hg
-    url: https://bitbucket.org/ignitionrobotics/ign-tools
-    version: default
-  src/ign-msgs:
-    type: hg
-    url: https://bitbucket.org/ignitionrobotics/ign-msgs
-    version: default
-  src/ign-transport:
-    type: hg
-    url: https://bitbucket.org/ignitionrobotics/ign-transport
+    url: https://bitbucket.org/osrf/gazebo_experimental
     version: default
   src/ign-common:
     type: hg
@@ -23,17 +15,25 @@ repositories:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-math
     version: ign-math3
-  src/sdformat:
+  src/ign-msgs:
     type: hg
-    url: https://bitbucket.org/osrf/sdformat
+    url: https://bitbucket.org/ignitionrobotics/ign-msgs
     version: default
   src/ign-rendering:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-rendering
     version: default
-  src/gazebo_experimental:
+  src/ign-tools:
     type: hg
-    url: https://bitbucket.org/osrf/gazebo_experimental
+    url: https://bitbucket.org/ignitionrobotics/ign-tools
+    version: default
+  src/ign-transport:
+    type: hg
+    url: https://bitbucket.org/ignitionrobotics/ign-transport
+    version: default
+  src/sdformat:
+    type: hg
+    url: https://bitbucket.org/osrf/sdformat
     version: default
   src/ament/ament_tools:
     type: git
