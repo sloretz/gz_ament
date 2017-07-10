@@ -6,7 +6,7 @@ SRC_DIR=$DIR/../src
 PKG_DIR=../package.xml
 
 cd $SRC_DIR/gazebo_experimental
-ln -Ts ../$PKG_DIR/gazebo.xml package.xml || true
+ln -Ts ../$PKG_DIR/gazebo_experimental.xml package.xml || true
 
 cd $SRC_DIR/sdformat
 ln -Ts ../$PKG_DIR/sdformat.xml package.xml || true
