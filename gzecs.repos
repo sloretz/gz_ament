@@ -1,45 +1,45 @@
 repositories:
   src/ign/tools:
     type: hg
-    url: ssh://hg@bitbucket.org/ignitionrobotics/ign-tools
+    url: https://bitbucket.org/ignitionrobotics/ign-tools
     version: default
   src/ign/msgs:
     type: hg
-    url: ssh://hg@bitbucket.org/ignitionrobotics/ign-msgs
+    url: https://bitbucket.org/ignitionrobotics/ign-msgs
     version: default
   src/ign/transport:
     type: hg
-    url: ssh://hg@bitbucket.org/ignitionrobotics/ign-transport
+    url: https://bitbucket.org/ignitionrobotics/ign-transport
     version: default
   src/ign/common:
     type: hg
-    url: ssh://hg@bitbucket.org/ignitionrobotics/ign-common
+    url: https://bitbucket.org/ignitionrobotics/ign-common
     version: default
   src/ign/gui:
     type: hg
-    url: ssh://hg@bitbucket.org/ignitionrobotics/ign-gui
+    url: https://bitbucket.org/ignitionrobotics/ign-gui
     version: default
   src/sdformat:
     type: hg
-    url: ssh://hg@bitbucket.org/osrf/sdformat
+    url: https://bitbucket.org/osrf/sdformat
     version: default
   src/ign/rendering:
     type: hg
-    url: ssh://hg@bitbucket.org/ignitionrobotics/ign-rendering
+    url: https://bitbucket.org/ignitionrobotics/ign-rendering
     version: default
   src/gazebo_experimental:
     type: hg
-    url: ssh://hg@bitbucket.org/osrf/gazebo_experimental
+    url: https://bitbucket.org/osrf/gazebo_experimental
     version: default
   src/ament/ament_tools:
     type: git
-    url: git@github.com:ament/ament_tools.git
+    url: https://github.com/ament/ament_tools.git
     version: master
   src/ament/ament_package:
     type: git
-    url: git@github.com:ament/ament_package.git
+    url: https://github.com/ament/ament_package.git
     version: master
   src/ament/osrf_pycommon:
     type: git
-    url: git@github.com:osrf/osrf_pycommon.git
+    url: https://github.com/osrf/osrf_pycommon.git
     version: master
