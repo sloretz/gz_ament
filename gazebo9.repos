@@ -1,15 +1,11 @@
 repositories:
-  src/gazebo_experimental:
+  src/gazebo:
     type: hg
-    url: https://bitbucket.org/osrf/gazebo_experimental
+    url: https://bitbucket.org/osrf/gazebo
     version: default
   src/ign-common:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-common
-    version: default
-  src/ign-gui:
-    type: hg
-    url: https://bitbucket.org/ignitionrobotics/ign-gui
     version: default
   src/ign-math:
     type: hg
@@ -18,10 +14,6 @@ repositories:
   src/ign-msgs:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-msgs
-    version: default
-  src/ign-rendering:
-    type: hg
-    url: https://bitbucket.org/ignitionrobotics/ign-rendering
     version: default
   src/ign-tools:
     type: hg
@@ -34,7 +26,7 @@ repositories:
   src/sdformat:
     type: hg
     url: https://bitbucket.org/osrf/sdformat
-    version: default
+    version: sdf5
   src/ament/ament_tools:
     type: git
     url: https://github.com/ament/ament_tools.git
