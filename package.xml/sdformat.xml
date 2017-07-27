@@ -8,6 +8,7 @@
 
   <buildtool_depend>cmake</buildtool_depend>
   <depend>ign_common</depend>
+  <depend>ign_math</depend>
 
   <export>
     <build_type>cmake</build_type>
