@@ -14,7 +14,7 @@ repositories:
   src/ign-math:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-math
-    version: ign-math3
+    version: default
   src/ign-msgs:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-msgs
@@ -22,6 +22,10 @@ repositories:
   src/ign-rendering:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-rendering
+    version: default
+  src/ign-sensors:
+    type: hg
+    url: https://bitbucket.org/ignitionrobotics/ign-sensors
     version: default
   src/ign-tools:
     type: hg
