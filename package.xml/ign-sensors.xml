@@ -12,6 +12,7 @@
   <depend>ign_rendering</depend>
   <depend>ign_transport</depend>
   <depend>ign_math</depend>
+  <depend>sdformat</depend>
 
   <export>
     <build_type>cmake</build_type>
