@@ -1,6 +1,6 @@
-# Gazebo Experimental using Ament
+# Gazebo using Ament
 
-This repo contains everything needed to build gazebo experimental using ament.
+This repo contains everything needed to build gazebo using ament.
 
 ## Prerequisites
 
@@ -17,10 +17,11 @@ This repo contains everything needed to build gazebo experimental using ament.
     cd gzecs
     ```
 
-1. Use vcstool to checkout all of the requried repos. This creates a directory `src`
+1. Use vcstool to checkout all of the requried repos for the version of gazebo you're interested in
 
     ```
-    vcs import < gzecs.repos
+    cd ws_gz_7
+    vcs import < ./repos
     ```
 
 1. Make symbolic links to package.xml files
@@ -52,6 +53,6 @@ This repo contains everything needed to build gazebo experimental using ament.
 1. Run ament to build and run tests
 
     ```
-    ament test --only-packages gazebo_experimental
+    ament test --only-packages ign_common
     ```
 

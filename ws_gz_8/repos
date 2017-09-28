@@ -2,11 +2,7 @@ repositories:
   src/gazebo:
     type: hg
     url: https://bitbucket.org/osrf/gazebo
-    version: default
-  src/ign-common:
-    type: hg
-    url: https://bitbucket.org/ignitionrobotics/ign-common
-    version: default
+    version: gazebo8
   src/ign-math:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-math
@@ -14,15 +10,11 @@ repositories:
   src/ign-msgs:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-msgs
-    version: default
-  src/ign-tools:
-    type: hg
-    url: https://bitbucket.org/ignitionrobotics/ign-tools
-    version: default
+    version: ign-msgs0
   src/ign-transport:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-transport
-    version: default
+    version: ign-transport3
   src/sdformat:
     type: hg
     url: https://bitbucket.org/osrf/sdformat
@@ -39,3 +31,4 @@ repositories:
     type: git
     url: https://github.com/osrf/osrf_pycommon.git
     version: master
+
