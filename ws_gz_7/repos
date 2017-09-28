@@ -1,0 +1,26 @@
+repositories:
+  src/gazebo:
+    type: hg
+    url: https://bitbucket.org/osrf/gazebo
+    version: gazebo7
+  src/ign-math:
+    type: hg
+    url: https://bitbucket.org/ignitionrobotics/ign-math
+    version: ign-math2
+  src/sdformat:
+    type: hg
+    url: https://bitbucket.org/osrf/sdformat
+    version: sdf4
+  src/ament/ament_tools:
+    type: git
+    url: https://github.com/ament/ament_tools.git
+    version: master
+  src/ament/ament_package:
+    type: git
+    url: https://github.com/ament/ament_package.git
+    version: master
+  src/ament/osrf_pycommon:
+    type: git
+    url: https://github.com/osrf/osrf_pycommon.git
+    version: master
+
