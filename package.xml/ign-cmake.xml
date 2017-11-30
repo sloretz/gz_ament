@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ign_cmake</name>
+  <version>0.0.0</version>
+  <description>ignition cmake</description>
+  <maintainer email="sim@osrfoundation.org">Gazebo developers</maintainer>
+  <license>APACHE 2</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
